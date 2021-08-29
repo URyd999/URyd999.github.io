@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.titre_section{
+    height: 250px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,115,1) 49%, rgba(9,72,85,1) 100%);
+    font-size: 3rem;
+    padding:20px;
+    margin: 0px;
+    color: whitesmoke;
+    align-content: center;
+
+}
+.titre_section h1{
+    border: solid 2px rgb(34 5 60 / 42%);
+    width: 40%;
+    margin: 50px auto;
+    padding: 10px 0px;
+    background-color: rgb(34 5 60 / 42%);
+    box-shadow: 5px 5px 5px black;
+}
