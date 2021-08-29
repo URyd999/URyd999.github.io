@@ -22,3 +22,32 @@ body{
     background-color: rgb(34 5 60 / 42%);
     box-shadow: 5px 5px 5px black;
 }
+.projects_list{
+    align-items: center;
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.element{
+    width: 250px;
+    height: 100px;
+    box-shadow: 5px 5px 5px black;
+    align-items: center;
+    padding-top: 20px;
+    border-radius: 5px;
+    background: rgb(2,0,36);
+    margin: 20px;
+    transition: 0.5s;
+}
+.projects_list a{
+    text-decoration: none;
+    color:white;
+
+}
+.element:hover{
+    letter-spacing: 1.5px;
+    background-color: rgb(17, 0, 36) ;
+
+    
+}
